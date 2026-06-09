@@ -26,6 +26,9 @@
     "url": "https://github.com/untitledq/new-version-shuffle-array/issues"
   },
   "homepage": "https://github.com/untitledq/new-version-shuffle-array#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "jest": "^29.7.0",
     "microbundle": "^0.15.1"
