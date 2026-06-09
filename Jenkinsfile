@@ -22,7 +22,7 @@ pipeline {
         stage('Publish') {
             steps {
                 withCredentials([string(
-                    credentialsId: 'npm-token',
+                    credentialsId: 'jenikins_npm',
                     variable: 'NPM_TOKEN'
                 )]) {
                     sh 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc'
